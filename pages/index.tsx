@@ -1,4 +1,5 @@
 import { NextPage } from 'next'
+import Head from 'next/head'
 import Image from 'next/image'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
@@ -21,6 +22,9 @@ const fetcher = (url: string) =>
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>上大久保中学校 - 非公式</title>
+      </Head>
       <div className='h-full px-5 py-5'>
         <div className='container px-3 py-3 content-center items-center'>
           <div className='w-2/3'>

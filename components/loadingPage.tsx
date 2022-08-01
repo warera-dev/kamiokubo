@@ -13,7 +13,7 @@ const Loading = ({ children }: Props) => {
     </Head>
     <div className='h-screen w-full bg-blue-400 flex justify-center items-center flex-col'>
       <div className='animate-ping h-4 w-4 bg-gray-600 rounded-full'></div>
-      <div className='text-4xl text-white py-5 px-5'>上大久保中学校</div>
+      <div className='text-4xl text-white py-5 px-5 animate-bounce'>上大久保中学校</div>
       <div></div>
     </div>
     </>
