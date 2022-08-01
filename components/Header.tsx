@@ -15,7 +15,7 @@ const Header = () => {
           <Link href='/'>
             <a href='#' className='flex items-center'>
               <Image
-                src='/logo.gif'
+                src='./logo.gif'
                 className='mr-3 h-6 sm:h-9'
                 alt='Flowbite Logo'
                 width={25}
