@@ -30,10 +30,10 @@ const Home: NextPage = () => {
           <div className='w-2/3'>
             <Carousel autoPlay={true} showStatus={false} infiniteLoop={false} showThumbs={false}>
               <div>
-                <img src='/carousels/1.jpg' alt='image1' />
+                <img src='./carousels/1.jpg' alt='image1' />
               </div>
               <div>
-                <img src='/carousels/2.jpg' alt='image1' />
+                <img src='./carousels/2.jpg' alt='image1' />
               </div>
             </Carousel>
           </div>
